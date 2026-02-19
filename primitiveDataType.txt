@@ -1,0 +1,32 @@
+public class primitiveDataType{
+    public static void main(String[] args) {
+	    // whole number  primitive data type
+	    byte age = 30;
+        System.out.printf("I am %d Years old%n",age);
+
+        short quantityOfBags = 10000;
+        System.out.print("The quantity of bags ordered is %d", quantityOfBags);	
+
+
+        int nigeriapopulation = 2000000000;
+        System.out.printf("The population of Nigeria is %d%n",nigeriaPopulation);
+
+        Long worldsPopulation = 90000000000000l;		
+		System.out.printf("The worlds population is %d", worldsPopulation);
+		
+		//float-point primitive data type 
+		float myBalance = 6945.600057F;
+		System.out.printf("My Account balance is %.2f%n",myBalance),
+		
+		double cBNBalance = 98734466464.904;
+		System.out.printf("CBN account balance is %f%n",cBNBalance);
+		
+		//single character primitive datatype
+		char symbol = '$';
+		System.out.printf("My Account balance is %c%.2f%n",myBalance),
+		
+		//boolean primitive data type
+		boolean isJavaFun = true;
+		System.out.printf("Do you love learning Java? %b%n" ,isJavaFun);
+	}
+}
