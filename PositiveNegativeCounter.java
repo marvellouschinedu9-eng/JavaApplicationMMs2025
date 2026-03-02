@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class PositiveNegativeCounter{
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		int negative = 0,positive = 0, zero =0;
+		
+		while(true){
+		    System.out.println("Enter any number execept -1: ");
+		    int num = input.nextInt():
+			
+			
+			if(num == -1){
+			   break; 
+			}
+			
+		    if (num >0){
+                positive++;
+			}
+			else if {num < 0){
+			    negative++;
+			}
+			else{
+				zero++;
+			}
+		}
+		System.out.println("Count of positive numbers is %d%n",positive);
+		System.out.println("Count of negative numbers is %d%n",negative);
+		System.out.println("Count of zero numbers is %d%n",zero)
+	}
+}
